@@ -1,0 +1,25 @@
+site_name: Workspace UX
+
+# Theme
+theme:
+  name: material
+
+  # Features
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+
+# Navbar
+nav:
+    - Home: index.md
+
+    - Help:
+      - Help documents: help.md
+      - Setup workspace: setup.md
+
+# Extensions
+markdown_extensions:
+  - toc:
+      permalink: true

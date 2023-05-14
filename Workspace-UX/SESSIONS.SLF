@@ -1,0 +1,11 @@
+<================= Sessions.slf =================>
+WtSession > NewSession {
+  "Startex developer" started a new session on "2/17/2021", "Tuesday", "10:00"
+  External message > "EXAMPLE"
+}
+
+WtSession > EndSession {
+  "Startex Session" ended a session on "2/17/2021", "Tuesday", "05:00am"
+  Started session on > "2/17/2021", "Tuesday", "10:00"
+  External message > "EXAMPLE"
+}

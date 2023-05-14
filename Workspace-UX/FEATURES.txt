@@ -1,0 +1,16 @@
+Welcome to Workspace UX
+The new redesigned workspace for your needs.
+Workspace UX is a critical update, redesigning elements like the taskbar and adding new features like integrated windows, this is a must update for ALL users of workspace
+
+New features
+- Dock
+- Config
+- Integrated windows
+- Based menubar
+- Background images
+- Widgets
+- Applications (that can ONLY be ran ON workspace)
+- Upgraded and redesigned Basic Text Lite
+- Re written BACKEND
+- New about screen
+- Redesigned menubar

@@ -1,0 +1,3 @@
+The files in \Config can be used to edit workspace features
+Example:
+Go to \Config and open activeWidgets.cnf and set the text to TRUE with NO blanks. Then run workspace and you will see that workspace-widgets are now shown, to disable these widgets, change the TRUE to a FALSE, re-run workspace and see the result!
