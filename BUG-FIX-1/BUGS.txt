@@ -1,0 +1,78 @@
+User bug log
+List of bugs in workspace UX2
+=============================
+
+1. {
+	name : NotRespond
+	bug : [
+		- Workspace not responding after opening an application with workspace, when opened application closed, returns to normal
+		- When using "lock workspace" feature, the app wont respond
+	]
+	note: this bug also happens with SEARCH FILES
+	status : fixed
+}
+
+2. {
+	name : AppOpeningErrors
+	bug : [
+		- Text editors unable to open (basictext)
+		- Simple payment XA unable to open
+		- Google chrome unable to open
+	] state : fixed
+}
+
+3. {
+	name : clockmovin
+	bug : After going to "Application list", the $CLOCK_LABEL moves top
+	state : fixed
+}
+
+4. {
+	name : AppListShowError
+	bug : When opened application list, an error in the terminal appears (view code-error)
+
+	code-error : [
+		Traceback (most recent call last):
+		  File "C:\Users\izooi_2ppgdho\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1884, in __call__
+		    return self.func(*args)
+		  File "D:\Izu\Python\wrkstn.py", line 995, in AppList_ShowCommand
+		    b10.grid(row=1, column=4, padx=5, pady=5)
+		NameError: name 'b10' is not defined
+	] state : fixed
+}
+
+5. {
+	name : SavinError
+	bug : When attempting to save a note in the "notes mode" feature in workstation, note file is saved as ".FILE", not any format
+	state : fixed
+}
+
+6. {
+	name : NoFile
+	bug-1 : After clicking "save note" in the notes mode feature, if you select NO file, an code-error pops up
+	bug-2 : If you select no file to open in notes mode, an error pops up (code-error-2)
+
+	code-error-1 [
+		Traceback (most recent call last):
+		  File "C:\Users\izooi_2ppgdho\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1884, in __call__
+		    return self.func(*args)
+		  File "D:\Izu\Python\wrkstn.py", line 814, in open_file_van
+		    text_file = open(text_file, 'r')
+		FileNotFoundError: [Errno 2] No such file or directory: ''
+	]
+
+	code-error-2 [
+		Traceback (most recent call last):
+		  File "C:\Users\izooi_2ppgdho\AppData\Local\Programs\Python\Python39\lib\tkinter\__init__.py", line 1884, in __call__
+		    return self.func(*args)
+		  File "D:\Izu\Python\wrkstn.py", line 814, in open_file_van
+		    text_file = open(text_file, 'r')
+		FileNotFoundError: [Errno 2] No such file or directory: ''
+] state : fixed
+}
+
+7. {
+	name : BadErrorMsgs
+	bug : In customizing screen, in trying to centre taskbar, after hiding the taskbar when centre taskbar is clicked,even though the taskbar is hidden, erros message still pops.
+	state : fixed
+}

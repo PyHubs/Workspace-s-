@@ -1,0 +1,14 @@
+All improvements (new features) in 'workspace bug fix'
+
+# Bugs
+- Fixed all bugs in BUGS.txt
+
+# Backend code improvements
+- Remove all "print" cases. [DONE]
+- Remove the "RELEASE NOTES (ALL)" comments from line 19 to line 43 [DONE]
+- Delete some unwanted comments [DONE]
+- Removing NOTES_MODE, we will add it in the next major release
+- Taking these measures, the total line count is [863] instead of [1187]
+
+# Notes
+WORKSPACE IS NOT COMPATIBLE WITH ANY OS OTHER THAN WINDOWS, WE USE KEY COMPONENTS LIKE "START" AND "C:\ DRIVE" TO FUNCTION
